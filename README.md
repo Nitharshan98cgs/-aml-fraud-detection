@@ -23,7 +23,10 @@ Results
 
 Held-out test set (831,123 transactions; fraud class):
 
-ModelDetection (recall)Alert precisionF1Cases missedFalse alertsLogistic Regression90.0%4.7%0.08924745,326Random Forest99.6%97.7%0.987958XGBoost99.6%91.9%0.95611216
+ModelDetection (recall)Alert precisionF1Cases missedFalse alerts
+Logistic Regression 90.0% 4.7% 0.08924745,326
+Random Forest 99.6% 97.7% 0.987958
+XGBoost 99.6% 91.9% 0.95611216
 
 Random Forest gave the best operational profile — near-complete detection (only 9 cases missed) with a very low false-alert load (58 across ~829,000 clean payments).
 
